@@ -1,7 +1,8 @@
 # [Made Mistakes](https://mademistakes.com) Source Code
 
-This is the source code of Made Mistakes, a personal blog and portfolio built 
-with [Gatsby](https://www.gatsbyjs.org/), [Travis CI](https://travis-ci.org/),  and [Netlify](https://www.netlify.com/).
+This is the source code of Made Mistakes, a personal blog and portfolio built with [Gatsby](https://www.gatsbyjs.org/), [Travis CI](https://travis-ci.org/), and [Netlify](https://www.netlify.com/). Feel free to modify, improve, and learn from it.
+
+If you're looking for a repo to fork and replace with your own content, I built [several themes](https://mademistakes.com/work/jekyll-themes/) for that purpose...
 
 ## Getting started
 
@@ -14,7 +15,7 @@ with [Gatsby](https://www.gatsbyjs.org/), [Travis CI](https://travis-ci.org/),  
 2. **Add `.env` file to the root with your GitHub API token.**
 
    ```
-   GITHUB_API_TOKEN=yourPersonalGitHubApiToken
+   GH_API_TOKEN=yourPersonalGitHubApiToken
    ```
 
    **Note:** do not commit this file. Builds will fail with a `TypeError: Cannot read property 'match' of undefined` since GitHub repo listing on `/pages/works.js` can't resolve the GraphQL query.
